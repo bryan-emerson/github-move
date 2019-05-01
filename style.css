@@ -76,6 +76,7 @@ img {
 }
 
 .footer {
+  overflow: auto;
   font-size: 12px;
   background-color: #70a6ff;
 }
