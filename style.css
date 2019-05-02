@@ -86,3 +86,40 @@ img {
   justify-content: space-around;
   padding-left: 0;
 }
+
+@media (min-width: 992px) {
+  .hidden-xl {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .lg-60 {
+    width: 60%;
+  }
+
+  .lg-40 {
+    width: 40%;
+  }
+
+  .hidden-lg {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .medium-50 {
+    width: 50%;
+  }
+
+  .hidden-medium {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .small-100 {
+    width: 100%;
+  }
+
+  .hidden-small {
+    display: none;
+  }
+}
